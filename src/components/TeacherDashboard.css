@@ -1,0 +1,68 @@
+.teacher-dashboard {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff3e0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 152, 0, 0.3);
+}
+
+.teacher-dashboard h2 {
+  color: #ef6c00;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-section, .view-section {
+  margin-bottom: 30px;
+}
+
+.student-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.student-item span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.student-item input {
+  margin-right: 10px;
+  padding: 5px;
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.student-item button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #ffb300;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.student-item button:hover {
+  background-color: #ffa000;
+}
+
+.view-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.view-section li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ffcc80;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}

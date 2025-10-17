@@ -1,0 +1,14 @@
+{
+	"appId": "com.sgs.frontend",
+	"appName": "sgs-frontend",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	},
+	"cordova": {},
+	"packageClassList": []
+}
